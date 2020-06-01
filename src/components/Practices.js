@@ -6,6 +6,7 @@ const Practices = () => {
   const [practicesMath, setPracticesMath] = useState([
       {practiceTopic: 'equation', name:'สมการ', description: ''},
       {practiceTopic: 'set', name:'เซต', description: ''},
+      {practiceTopic: 'trigonometry', name:'ตริโกณ', description: ''}, 
       {practiceTopic: 'logic', name:'ตรรกศาสตร์', description: ''}, 
       {practiceTopic: 'real-number ', name:'จำนวนจริง', description: ''}, 
       {practiceTopic: 'number-theory ', name:'ทฤษฏีจำนวน', description: ''}, 

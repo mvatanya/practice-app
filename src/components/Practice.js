@@ -5,16 +5,14 @@ import Quizes from './Quizes';
 const Practice = props => {
   const { match } = props;
   let { handle } = match.params;
-  // console.log('match', match)
-  // console.log('quizData', QuizData)
 
   let data = QuizData.filter(d => d.subject === handle)
 
-
+  if (data.length === 0) {
+    return <div>no practice for this subject yet</div>
+  }
   return (
-    <div className="col-md-8 offset-md-2">
-      <Quizes data={data}/>
-    </div>
+    <Quizes data={data}/>
   );
 }
 
