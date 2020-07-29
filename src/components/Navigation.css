@@ -1,15 +1,15 @@
 .Navigation {
-  background-color: #ffb399;
+  background-color: #f3f3f3;
 }
 
 .nav-link.active {
   font-weight: bold;
 }
 
-.nav-link {
-  color: white !important;
+.nav-link{
+  color: black !important;
   }
 
 .navbar-brand {
-  color: white !important;
+  color: black !important;
 }

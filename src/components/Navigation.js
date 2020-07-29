@@ -24,6 +24,12 @@ const Navigation = () => {
             แบบฝึกหัด
           </NavLink>
         </li>
+        <li className="nav-item mr-4">
+          Login
+        </li>
+        <li className="nav-item mr-4">
+          Signup
+        </li>
       </ul>
     </nav>
   )

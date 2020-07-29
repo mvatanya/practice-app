@@ -15,9 +15,10 @@ const Routes = () => {
         <Route
           exact
           path="/"
-          render={() => <Home />} />
+          render={() => <Home />} 
+        />
 
-      <Route
+        <Route
           exact
           path="/books-collections"
           render={props => (

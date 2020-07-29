@@ -10,7 +10,6 @@ const App = () => {
     <div className="App">
       <div className="wrapper">
         <div className="head">
-
         </div>
         <div className="main">
           <BrowserRouter>
