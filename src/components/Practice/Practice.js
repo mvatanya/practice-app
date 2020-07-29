@@ -1,6 +1,6 @@
 import React from "react";
-import { QuizData } from './QuizData'
-import Quizes from './Quizes';
+import { QuizData } from '../QuizData/QuizData'
+import Quizes from '../Quizes/Quizes';
 
 const Practice = props => {
   const { match } = props;

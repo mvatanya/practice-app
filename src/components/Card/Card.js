@@ -4,10 +4,10 @@ import './Card.css'
 
 const Card = ({ item }) => {
   return(
-    <Link class="Card-Link" to={`/practices/${item.practiceTopic}`}>
-    <div class="Card col mb-4">
-      <div class="card h-100">
-        <div class="Card-Header card-header">
+    <Link className="Card-Link" to={`/practices/${item.practiceTopic}`}>
+    <div className="Card col mb-4">
+      <div className="card h-100">
+        <div className="Card-Header card-header">
         {item.name}
         </div>
         <div className="card-body">

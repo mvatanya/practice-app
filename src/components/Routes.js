@@ -1,10 +1,10 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "./Home";
-import Lessons from "./Lessons";
-import Practices from "./Practices";
-import Practice from "./Practice";
-import BooksCollections from "./BooksCollections"
+import Home from "./Home/Home";
+import Lessons from "./Lessons/Lessons";
+import Practices from "./Practices/Practices";
+import Practice from "./Practice/Practice";
+import BooksCollections from "./BooksCollections/BooksCollections"
 
 
 const Routes = () => {

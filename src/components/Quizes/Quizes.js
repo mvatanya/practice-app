@@ -1,8 +1,8 @@
 import React, { useReducer, useState } from 'react';
-import Progress from './questionCard/Progress';
-import Question from './questionCard/Question';
-import Answers from './questionCard/Answers';
-import QuizContext from '../context/QuizContext';
+import Progress from '../QuestionCard/Progress';
+import Question from '../QuestionCard/Question';
+import Answers from '../QuestionCard/Answers';
+import QuizContext from '../../context/QuizContext';
 
 import {
   SET_ANSWERS,
@@ -11,8 +11,8 @@ import {
   SET_ERROR,
   SET_SHOW_RESULTS,
   RESET_QUIZ,
-} from '../reducers/types.js';
-import quizReducer from '../reducers/QuizReducer';
+} from '../../reducers/types.js';
+import quizReducer from '../../reducers/QuizReducer';
 import './Quizes.css';
 
 const Quizes = ({ data }) => {

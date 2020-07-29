@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CardList from './CardList';
+import CardList from '../CardList/CardList';
 import './Practices.css'
 
 const Practices = () => {
