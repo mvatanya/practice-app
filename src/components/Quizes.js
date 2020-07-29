@@ -28,7 +28,7 @@ const Quizes = ({ data }) => {
 };
 const [state, dispatch] = useReducer(quizReducer, initialState);
 const {currentQuestion, currentAnswer, answers, showResults, error} = state;
-const [countCorrectAnswer, setCountCorrectAnswer] = useState(0)
+// const [countCorrectAnswer, setCountCorrectAnswer] = useState(0)
 
 const question = questions[currentQuestion];
 

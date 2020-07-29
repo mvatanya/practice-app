@@ -6,17 +6,22 @@ const Navigation = () => {
   return ( 
     <nav className="Navigation navbar navbar-expand-md">
       <Link className="navbar-brand" to="/">
-        My Practice App
+        สำนักพิมพ์ PBC
       </Link>
       <ul className="navbar navbar-nav ml-auto">
+      <li className="nav-item mr-4">
+          <NavLink className="nav-link" to="/books-collections">
+            หนังสือของเรา
+          </NavLink>
+        </li>
         <li className="nav-item mr-4">
           <NavLink className="nav-link" to="/lessons">
-            Lessons
+            บทเรียน
           </NavLink>
         </li>
         <li className="nav-item mr-4">
           <NavLink className="nav-link" to="/practices">
-            Practice
+            แบบฝึกหัด
           </NavLink>
         </li>
       </ul>

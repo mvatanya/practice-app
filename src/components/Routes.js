@@ -4,6 +4,7 @@ import Home from "./Home";
 import Lessons from "./Lessons";
 import Practices from "./Practices";
 import Practice from "./Practice";
+import BooksCollections from "./BooksCollections"
 
 
 const Routes = () => {
@@ -16,7 +17,15 @@ const Routes = () => {
           path="/"
           render={() => <Home />} />
 
-
+      <Route
+          exact
+          path="/books-collections"
+          render={props => (
+            <BooksCollections 
+              {...props}
+            />
+          )}
+        />  
         <Route
           exact
           path="/lessons"

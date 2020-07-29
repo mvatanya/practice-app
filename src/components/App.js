@@ -8,10 +8,17 @@ import { BrowserRouter } from 'react-router-dom';
 const App = () => {
   return(
     <div className="App">
-      <BrowserRouter>
-        <Navigation />
-        <Routes />
-      </BrowserRouter>
+      <div className="wrapper">
+        <div className="head">
+
+        </div>
+        <div className="main">
+          <BrowserRouter>
+            <Navigation />
+            <Routes />
+          </BrowserRouter>
+        </div>
+      </div>
     </div>
   )
 }
