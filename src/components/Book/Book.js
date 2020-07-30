@@ -4,7 +4,8 @@ import './Book.css'
 const Book = ({ data: {id, title, image, price} }) => {
   console.log(image)
   return (
-    <div className='col-9 mx-auto col-md-6 col-lg-4 my-3'>
+    // <div className='col-9 mx-auto col-md-6 col-lg-4 my-3'>
+    <div className='col-sm-2'>
       <div className='card-book'>
         {/* <img>{image}</img> */}
         <div className='img-container'>
