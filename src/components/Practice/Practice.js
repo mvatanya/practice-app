@@ -1,5 +1,5 @@
 import React from "react";
-import { QuizData } from '../QuizData/QuizData'
+import { QuizData } from '../../data/QuizData/QuizData'
 import Quizes from '../Quizes/Quizes';
 
 const Practice = props => {
